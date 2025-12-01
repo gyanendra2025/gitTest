@@ -1,0 +1,42 @@
+git init
+git status
+cls
+dir
+git status
+cls
+git add .
+git status
+cls
+git comit -m "testing file added"
+git status
+rm testing.py
+cls
+git restore testing.py
+cls
+git status
+git add .
+git commit -m "done"
+cls
+git status
+git remote add origin git@github.com:gyanendra2025/gitTest.git
+git remote -v
+git remote -v
+cls 
+git push origin master
+cls
+git history
+history
+git branch
+git branch -B dev
+git branch dev
+git branch
+git switch dev
+git status
+git status
+git switch master
+git status
+git switch dev
+git log
+git switch master
+git log
+git push origin dev
